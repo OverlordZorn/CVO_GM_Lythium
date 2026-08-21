@@ -6,8 +6,8 @@
 
 class mum_arsenal_kits
 {
-    editor_layer_name = "cvo_arsenal_boxes";
-    object_variable_names[] = {"source"};
+    editor_layer_name = "";
+    object_variable_names[] = {""};
 
     // Imports Base from configFile
     import baseKit from mum_arsenal_kits;
