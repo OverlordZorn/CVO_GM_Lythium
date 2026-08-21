@@ -6,7 +6,8 @@ class CfgFunctions {
         class init // Category
         {
             class init_diary { preInit = 1; };
-            class init_babel { postInit = 1; }
+            class init_babel { postInit = 1; };
+            class init_respawn { postInit = 1; };
         };
         class common // Category
         {

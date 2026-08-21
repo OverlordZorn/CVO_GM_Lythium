@@ -74,7 +74,7 @@ respawnVehicleDelay = 99999;
 
 respawnOnStart = 0;
 respawnDialog = 0;
-respawnButton = 0; // Enables the respawn button in the ESC menu
+respawnButton = 1; // Enables the respawn button in the ESC menu
 
 
 // ###### Other Stuff
