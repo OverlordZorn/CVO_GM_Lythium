@@ -1,3 +1,5 @@
+/*
+
 private _structuredString1 = "
 <font size='11' face='EtelkaMonospacePro'>
 <br/>Personal notebook - recovered
@@ -81,3 +83,5 @@ private _deaddrop = "
 
 
 if (isServer) then { setTimeMultiplier 0.01; };
+
+*/

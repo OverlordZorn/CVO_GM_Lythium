@@ -44,13 +44,9 @@ class mum_arsenal_kits
 			class greenmag_ammo_762x54_basic_30Rnd {};
 			
 			class greenmag_beltlinked_762x54_basic_50 {};
-			class greenmag_beltlinked_762x54_tracer_50 {};
 			class greenmag_beltlinked_762x54_basic_100 {};
-			class greenmag_beltlinked_762x54_tracer_100 {};
 			class greenmag_beltlinked_762x54_basic_150 {};
-			class greenmag_beltlinked_762x54_tracer_150 {};
 			class greenmag_beltlinked_762x54_basic_200 {};
-			class greenmag_beltlinked_762x54_tracer_200 {};
 
 			class greenmag_item_speedloader {};
         };
@@ -170,8 +166,6 @@ class mum_arsenal_kits
 
     class Base_Headgear: baseKit {
         class items {
-            class UK3CB_TKP_I_H_Beret {};
-            class UK3CB_TKP_O_H_Beret {};
             class UK3CB_TKP_O_H_Patrolcap_Blk {};
             class UK3CB_TKP_B_H_Patrolcap_TAN {};
             class UK3CB_TKA_O_H_6b7_1m_bala1_TAN {};
@@ -195,12 +189,17 @@ class mum_arsenal_kits
         };
     };
 
+    class base_items: baseKit {
+        class items {
+                class ACE_wirecutter {};
+        };
+    };
+
     class Base_Facewear: baseKit {
         class items {
             class G_Aviator {}; 
             class G_Combat {}; 
             class G_Lowprofile {}; 
-			class G_Respirator_white_F {};
 			class G_Bandanna_blk {};
 			class G_Bandanna_khk {};
 			class G_Balaclava_blk {}; 
@@ -393,7 +392,6 @@ class mum_arsenal_kits
         role = "ExplosiveSpecialist";
         class items {
             class ACE_Clacker {};
-			class ACE_wirecutter {};
 			class Toolkit {};
             class tsp_breach_popper_mag {};
             class tsp_breach_popper_auto_mag {};
@@ -512,10 +510,6 @@ class mum_arsenal_kits
 			class muzzle_antenna_02_f {};
 			class muzzle_antenna_03_f {};
 
-			//ACE Groundspike & Mast
-			class ACRE_VHF30108SPIKE {};
-			class ACRE_VHF30108 {};
-			class ACRE_VHF30108MAST {};
 			
 		    //AL-6 and ED-1D
             class B_UAV_06_backpack_F {};
@@ -532,6 +526,42 @@ class mum_arsenal_kits
         role = "Leadership";
         class items {
             class rhs_acc_1p78 {};
+
+			//ACE Groundspike & Mast
+			class ACRE_VHF30108SPIKE {};
+			class ACRE_VHF30108 {};
+			class ACRE_VHF30108MAST {};
+
+
+            class UK3CB_TKP_B_H_Beret {};
+            class UK3CB_TKP_O_H_Beret {};
+            class UK3CB_TKP_I_H_Beret {};
+
+        };
+    };
+
+    class coyCoy: baseKit {
+        role = "coyco";
+        class items {
+            class rhs_cossack_visor_cap {};
+            class rhs_cossack_visor_cap_tan {};
+        };
+    };
+
+    class Zorn: baseKit {
+        id64 = "76561197970306509";
+        class items {
+
+            class rhs_cossack_papakha {};
+            class cvo_Kitbag_blk {};
+        };
+    };
+    class Clone: baseKit {
+        id64 = "76561198147307775";
+        class items {
+            class rhs_beret_vdv1 {};
+            class rhs_beret_vdv2 {};
+            class rhs_beret_vdv3 {};
         };
     };
 };
