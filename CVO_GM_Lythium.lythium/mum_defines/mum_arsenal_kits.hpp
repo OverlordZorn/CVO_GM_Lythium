@@ -19,6 +19,17 @@ class mum_arsenal_kits
         };
     };
 
+    class HandFlaresJCA: baseKit {
+        class items {
+            class JCA_HandFlare_Green {};
+            class JCA_HandFlare_Red {};
+            class SKY_JCA_HandFlare_Yellow {};
+            class SKY_JCA_HandFlare_White {};
+            class SKY_JCA_HandFlare_Purple {};
+            class SKY_JCA_HandFlare_Blue {};
+        };
+    };
+
     class GreenMagStuff: baseKit {
         addon_dependency = "greenmag_main";
         class items {
@@ -69,7 +80,6 @@ class mum_arsenal_kits
     class Binoculars: baseKit {
         class items {
             class Binocular {};
-
             class Old_Camera_HUD {};
             class Old_Camera {};
             class Old_Camera_Color_HUD {};
@@ -86,12 +96,10 @@ class mum_arsenal_kits
             class cigs_black_devil_cigpack {};
             class cigs_cigars_cigarbox_5 {};
             class cigs_craven_cigpack {};
-            class cigs_eckstein_cigpack {};
             class cigs_Kosmos_cigpack {};
             class cigs_pops_poppack {};
             class cigs_lucky_strike_cigpack {};
             class cigs_morley_cigpack {};
-            class cigs_baja_blast_cigpack {};
             //class cigs_crayons_crayonpack {};
         };
     };
