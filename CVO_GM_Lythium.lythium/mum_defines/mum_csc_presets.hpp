@@ -3,7 +3,7 @@ class mum_csc {
     class crates {
         import base_crate from mum_csc;
 
-        class cvo_medical: base_crate {
+        class medical: base_crate {
 
             displayName = "Medical Supplies";
 
@@ -13,28 +13,23 @@ class mum_csc {
             ace_medical_facility = "true";
 
             items[] = {
-                { "ACE_salineIV_500", 10},
-                { "ACE_salineIV", 10},
-
-                { "ACE_painkillers", 10},
-                { "ACE_epinephrine", 10},
-                { "ACE_morphine", 10},
-
-                { "ACE_fieldDressing", 8 },
-                { "ACE_elasticBandage", 10},
-                { "ACE_packingBandage", 10},
-                { "ACE_quikclot", 10},
-
-                { "ACE_tourniquet", 10},
-                { "ACE_splint", 10},
-                
-                { "ACE_bodyBag", 10},
-                
-                { "ACE_surgicalKit", 10}
+                { "ACE_salineIV_500",    5 },
+                { "ACE_salineIV",        5 },
+                { "ACE_painkillers",     2 },
+                { "ACE_epinephrine",     5 },
+                { "ACE_morphine",        5 },
+                { "ACE_fieldDressing",  40 },
+                { "ACE_elasticBandage", 40 },
+                { "ACE_packingBandage", 20 },
+                { "ACE_quikclot",       20 },
+                { "ACE_tourniquet",      5 },
+                { "ACE_splint",          5 },
+                { "ACE_bodyBag",         5 },
+                { "ACE_surgicalKit",     1 }
             };
         };
 
-        class cvo_eod_iedd: base_crate {
+        class eod: base_crate {
             displayName = "EOD/EX Supplies";
 
             box_class = "iedd_equipment_Box";
@@ -65,10 +60,25 @@ class mum_csc {
             };
         };
 
+        class HAT_crate: base_crate {
+            displayName = "HAT Kit";
+            box_class = "Box_Syndicate_WpsLaunch_F";
+            box_empty = "true";
+
+            items[] = {
+                { "RHS_Metis_Tripod_Bag", 1 },
+                { "RHS_Metis_Gun_Bag", 1 },
+                { "ace_compat_rhs_afrf3_mag_9M131M", 2 },
+                { "ace_compat_rhs_afrf3_mag_9M131F", 3 }
+            };
+        };
 
 
 
-        class Lyhtium95_combat_supplies: base_crate {
+
+
+
+        class combat_supplies: base_crate {
             displayName = "Combat Supplies";
 
             box_class = "Box_Syndicate_Ammo_F";
@@ -88,30 +98,25 @@ class mum_csc {
               
             };
         };
-        class Lyhtium95_patrol_package: base_crate {
+        class patrol_package: base_crate {
             displayName = "Patrol Package";
 
-            box_class = "rhs_7ya37_1_single";
+            box_class = "Box_Syndicate_Ammo_F";
             box_empty = "true";
 
             items[] = {
 
                 { "greenmag_item_speedloader", 1 },
                 { "greenmag_ammo_545x39_basic_60Rnd", 5 },
-
                 { "Old_Camera_Color_HUD", 1},
-
                 { "ACE_Chemlight_Shield", 3 },
                 { "Chemlight_red", 5 } ,
 
                 { "ACE_WaterBottle", 10 },
                 { "ACE_Humanitarian_Ration", 20 },
-
-                { "acex_intelitems_notepad", 2},
                 { "ACE_wirecutter", 1 },
                 { "ACE_EntrenchingTool", 1 },
 
-                { "ACE_painkillers", 5 },
                 { "ACE_bodyBag", 10 },
 
                 { "cigs_kosmos_cigpack", 1 },
