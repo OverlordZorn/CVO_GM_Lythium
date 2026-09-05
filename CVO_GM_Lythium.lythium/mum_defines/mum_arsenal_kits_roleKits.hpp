@@ -17,6 +17,11 @@ class EOD: baseKit {
         class rhs_ec200_sand_mag {};
         class rhs_ec400_sand_mag {};
         
+        // EOD Helmets
+        class rhs_altyn {};
+        class rhs_altyn_novisor {};
+        class rhs_altyn_novisor_ess {};
+
         //Minesweepers
         //class MineDetector {}; // Vanilla
         class ACE_VMM3 {};
