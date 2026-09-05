@@ -105,6 +105,29 @@ class Base_Facewear: baseKit {
         class UK3CB_G_Neck_Shemag_KLR_tan {};
         class UK3CB_G_Neck_Shemag_KL_blk {};
 
+        class UK3CB_G_Tactical_Gloves_Black {};
+        class UK3CB_G_Tactical_Gloves_Green {};
+        class UK3CB_G_Tactical_Gloves_Tan {};
+        class UK3CB_Tactical_Gloves_black_NVG {};
+        class UK3CB_Tactical_Gloves_green_NVG {};
+        class UK3CB_Tactical_Gloves_tan_NVG {};
+
+        class UK3CB_G_Gloves_Tan {};
+        class UK3CB_G_Gloves_Green {};
+        class UK3CB_G_Gloves_Black {};
+        class UK3CB_Gloves_black_NVG {};
+        class UK3CB_Gloves_green_NVG {};
+        class UK3CB_Gloves_tan_NVG {};
+
+        class G_Spectacles_Tinted {};
+        class G_Squares {};
+        class G_Squares_Tinted {};
+        class G_Spectacles {};
+        
+        class G_HeadSetMilitary {};
+
+        class UK3CB_G_Earpiece {};
+        class UK3CB_Earpiece_NVG {};
     };
 };
 
@@ -115,3 +138,4 @@ class NVGs: baseKit {
     };
 };
 */
+
