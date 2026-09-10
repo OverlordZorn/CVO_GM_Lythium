@@ -22,7 +22,7 @@ if (!hasInterface) exitWith {};
 
 
 //// ################# COMMENT LINE BELOW TO ENABLE BABEL #################
-if (true) exitWith {};
+if (false) exitWith {};
 //// ################# COMMENT LINE ABOVE TO ENABLE BABEL #################
 
 
@@ -72,7 +72,7 @@ cvo_babel_useUNCON = true;
 cvo_babel_zeusLanguages = cvo_babel_allLanguages apply {_x select 0};
 
 private _allLng = + cvo_babel_allLanguages;
-if (cvo_babel_useUNCON) then { _allLanguages pushBack + ["un", "Unconscious"] };
+if (cvo_babel_useUNCON) then { _allLng pushBack + ["un", "Unconscious"] };
 
 { _x call acre_api_fnc_babelAddLanguageType } forEach _allLng;
 
