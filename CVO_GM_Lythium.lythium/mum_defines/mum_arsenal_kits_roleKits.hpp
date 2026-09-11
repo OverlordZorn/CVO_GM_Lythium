@@ -51,21 +51,14 @@ class MG: baseKit {
 };
 
 class AntiTank: baseKit {
-    role = "Anti-Tank";
+    role = "Light-Anti-Tank";
     class items {
-        //RPG7
-        class rhs_weap_rpg7 {};
-        class rhs_acc_pgo7v {};
-        class rhs_rpg7_PG7V_mag {};
-        class rhs_rpg7_OG7V_mag {};
-
-        // RPG Carriers
-        class rhs_rpg_2 {};
-        class rhs_rpg_empty {};
-        class rhs_rpg_6b2 {};
-        class rhs_rpg_6b3 {};
+        // LAT
+        class rhs_weap_rpg26 {};
+        class rhs_weap_rpg18 {};
     };
 };
+
 
 class Grenadier: baseKit {
     role = "Grenadier";

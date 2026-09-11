@@ -12,36 +12,15 @@ class Rations: baseKit {
     };
 };
 
-
 class GreenMagStuff: baseKit {
     addon_dependency = "greenmag_main";
     class items {
-        //class greenmag_ammo_556x45_basic_60Rnd {};
-        //class greenmag_ammo_556x45_basic_30Rnd {};
-
-        //class greenmag_ammo_762x51_basic_60Rnd {};
-        //class greenmag_ammo_762x51_basic_30Rnd {};
-
-        class greenmag_ammo_545x39_basic_60Rnd {};
-        class greenmag_ammo_545x39_basic_30Rnd {};
-
-        class greenmag_ammo_762x39_basic_60Rnd {};
-        class greenmag_ammo_762x39_basic_30Rnd {};
-
-        class greenmag_ammo_9x19_basic_30Rnd {};
-
-        class greenmag_ammo_762x54_basic_60Rnd {};
-        class greenmag_ammo_762x54_basic_30Rnd {};
-        
         class greenmag_beltlinked_762x54_basic_50 {};
         class greenmag_beltlinked_762x54_basic_100 {};
         class greenmag_beltlinked_762x54_basic_150 {};
         class greenmag_beltlinked_762x54_basic_200 {};
-
-        class greenmag_item_speedloader {};
     };
 };
-
 
 class Binoculars: baseKit {
     class items {

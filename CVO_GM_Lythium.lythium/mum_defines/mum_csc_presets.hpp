@@ -1,7 +1,32 @@
+// baseCrate: https://github.com/CVO-Org/Zorns-Mission-Utility-Mod/blob/main/addons/csc/cfg/base_crate.hpp
+
 class mum_csc {
 
     class crates {
         import base_crate from mum_csc;
+
+        class vehicleMaintenance: base_crate {
+            displayName = "Vehicle Maintenance Kit";
+
+            box_class = "Land_WoodenCrate_01_F";
+            box_empty = "true";
+
+            ace_repair_facility = "true";
+            ace_repair_vehicle = "true";
+               
+            ace_cargo_add_spareWheels = 2;
+            ace_cargo_add_jerrycans = 2;
+
+            ace_cargo_setSize = 2;
+
+            items[] = {
+                {"ACE_Fortify", 1},
+                {"ACE_DefusalKit", 1},
+                {"ACE_EntrenchingTool", 1},
+                {"ACE_wirecutter", 1},
+                {"ToolKit", 1}
+            };
+        };
 
         class medical: base_crate {
 
