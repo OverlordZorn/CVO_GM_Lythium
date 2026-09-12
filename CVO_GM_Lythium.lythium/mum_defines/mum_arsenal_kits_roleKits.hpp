@@ -97,7 +97,7 @@ class Marksman: baseKit {
 
         //accessories
         class rhs_acc_pso1m2 {};
-        class rhs_acc_1pn34 {};
+        // class rhs_acc_1pn34 {}; // NVG Scope
         //class rhs_acc_tgpv {};
         
         //Utility
