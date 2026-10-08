@@ -8,7 +8,7 @@ class mum_csc {
         class vehicleMaintenance: base_crate {
             displayName = "Vehicle Maintenance Kit";
 
-            box_class = "Land_WoodenCrate_01_F";
+            box_class = "Box_NATO_Equip_F";
             box_empty = "true";
 
             ace_repair_facility = "true";
@@ -111,16 +111,20 @@ class mum_csc {
 
             items[] = {
 
-                { "rhs_30Rnd_545x39_AK_plum_green", 10 }, // tracers
-                { "rhs_30Rnd_545x39_7N10_plum_AK", 20 },
+                { "rhs_VOG25",  5 },
+                { "rhs_VOG25P", 5 },
 
+                { "rhs_30Rnd_545x39_AK_plum_green", 10 }, // tracers
+                { "rhs_30Rnd_545x39_7N10_plum_AK",  20 },
+
+                { "greenmag_ammo_762x54_basic_60Rnd",     3 },
+                { "greenmag_ammo_762x39_basic_60Rnd",     5 },
+                { "greenmag_ammo_545x39_basic_60Rnd",    10 },
+                
                 { "greenmag_beltlinked_762x54_basic_200", 5 },
-                { "greenmag_ammo_545x39_basic_60Rnd", 10 },
-                { "greenmag_ammo_762x39_basic_60Rnd", 5 },
-                { "greenmag_ammo_762x54_basic_60Rnd", 3 },
 
                 { "greenmag_item_speedloader", 1 }
-              
+             
             };
         };
         class patrol_package: base_crate {
@@ -149,11 +153,16 @@ class mum_csc {
                 { "cigs_voron_cigpack", 1 },
                 { "cigs_matches", 3 },
 
-                { "tsp_flashbang_cts2", 2 }, // flashbang
+                { "tsp_flashbang_cts9", 2 }, // flashbang
                 { "ACE_CableTie", 10 },
 
                 { "ACE_EarPlugs", 5 },
                 { "ACE_SpraypaintRed", 1 },
+
+                { "SKY_JCA_HandFlare_White", 5 }, 
+                { "JCA_HandFlare_Red", 5 }, 
+                { "JCA_HandFlare_Green", 2 }, 
+                { "SKY_JCA_HandFlare_Yellow", 2 }, 
 
                 { "ACRE_VHF30108", 1}
             };

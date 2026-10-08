@@ -1,5 +1,5 @@
 class Rations: baseKit {
-    condition = "missionNamespace getVariable ['ace_field_rations_enabled', true]";
+    condition = "missionNamespace getVariable ['acex_field_rations_enabled', false]";
     class items {
         class ACE_MRE_BeefStew {};
         class ACE_MRE_ChickenTikkaMasala {};
@@ -11,6 +11,8 @@ class Rations: baseKit {
         class ACE_MRE_SteakVegetables {};
     };
 };
+
+
 
 class GreenMagStuff: baseKit {
     addon_dependency = "greenmag_main";
@@ -37,15 +39,16 @@ class Binoculars: baseKit {
 class Immersion_Cigs: baseKit {
     addon_dependency = "cigs_core";
     class items {
-        class cigs_Apollo_cigpack {};
-        class cigs_black_devil_cigpack {};
+
+        class cigs_matches {};
+        class cigs_lighter {};
+
         class cigs_cigars_cigarbox_5 {};
-        class cigs_craven_cigpack {};
+        class cigs_Apollo_cigpack {};
         class cigs_Kosmos_cigpack {};
         class cigs_pops_poppack {};
-        class cigs_lucky_strike_cigpack {};
-        class cigs_morley_cigpack {};
-        //class cigs_crayons_crayonpack {};
+        class cigs_voron_cigpack {};
+        class cigs_nil_cigpack {};
     };
 };
 

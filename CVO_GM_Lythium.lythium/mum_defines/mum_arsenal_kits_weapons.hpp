@@ -143,6 +143,7 @@ class Weapons_Throwables: baseKit {
 
         // Flashbangs
         class tsp_flashbang_cts2 {};
+        class tsp_flashbang_cts9 {};
 
         // Grenades
         class rhs_mag_rgo {};

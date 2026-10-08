@@ -19,4 +19,6 @@ class mum_arsenal_kits
     
     #include "mum_arsenal_kits_roleKits.hpp"
     #include "mum_arsenal_kits_personalKits.hpp"
+
+    #include "mum_arsenal_kits_SOF.hpp"
 };
