@@ -2,6 +2,9 @@
 class EOD: baseKit {
     role = "ExplosiveSpecialist";
     class items {
+
+        class eup_EngineerBag {};
+
         class ACE_Clacker {};
         class Toolkit {};
         class tsp_breach_popper_mag {};

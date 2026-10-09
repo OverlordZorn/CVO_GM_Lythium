@@ -38,6 +38,10 @@ class mum_csc {
             ace_medical_facility = "true";
 
             items[] = {
+                { "efak_IFAK ",    5 },
+                { "efak_AFAK ",    3 },
+                { "efak_MFAK ",    1 },
+
                 { "ACE_salineIV_500",    5 },
                 { "ACE_salineIV",        5 },
                 { "ACE_painkillers",     2 },
@@ -134,6 +138,9 @@ class mum_csc {
             box_empty = "true";
 
             items[] = {
+
+                { "efak_IFAK ",    5 },
+                { "efak_AFAK ",    2 },
 
                 { "greenmag_item_speedloader", 1 },
                 { "greenmag_ammo_545x39_basic_60Rnd", 5 },

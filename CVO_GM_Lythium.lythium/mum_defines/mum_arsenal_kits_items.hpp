@@ -13,6 +13,27 @@ class Rations: baseKit {
 };
 
 
+    class pouches: baseKit {
+        class items {
+            class eup_UtilityPouch {};
+            class eup_AmmoPouch {};
+        };
+    };
+
+    class IFAKs: baseKit {
+        class items {
+            class efak_IFAK {};
+            class efak_AFAK {};
+        };
+    };
+
+    class IFAKs_medic: baseKit {
+        role = "medic";
+        class items {
+            class efak_MFAK {};
+        };
+    };
+
 
 class GreenMagStuff: baseKit {
     addon_dependency = "greenmag_main";
